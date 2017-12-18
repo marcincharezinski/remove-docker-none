@@ -16,3 +16,4 @@ Prints just pid and qualified main class name:
 `
 `
 docker rm $(docker ps -a -q)`
+`docker rmi $(docker images -a -q)`
